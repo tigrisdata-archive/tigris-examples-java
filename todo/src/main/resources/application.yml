@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+tigris:
+  project:
+    name: "todo"
+  server:
+    url: "localhost:8081"
+  network:
+    usePlainText: true
+  authorization:
+    client_id: 
+    client_secret: 
+
+springdoc:
+  swagger-ui:
+    path: "/swagger.html"
+    operationsSorter: "method"
